@@ -118,7 +118,7 @@ The package maintainer also reserves the right to adjust the criteria to recogni
 If you have further questions regarding the contribution guidelines, please contact the package/repository maintainer.
 
 <!-- urls -->
-[docs]: https://insightsengineering.github.io/r.pkg.template/index.html
-[articles]: https://insightsengineering.github.io/r.pkg.template/articles/index.html
-[license]: https://insightsengineering.github.io/r.pkg.template/LICENSE-text.html
-[insights]: https://github.com/insightsengineering/r.pkg.template/pulse
+[docs]: https://insightsengineering.github.io/nestcolor/index.html
+[articles]: https://insightsengineering.github.io/nestcolor/articles/index.html
+[license]: https://insightsengineering.github.io/nestcolor/LICENSE-text.html
+[insights]: https://github.com/insightsengineering/nestcolor/pulse
