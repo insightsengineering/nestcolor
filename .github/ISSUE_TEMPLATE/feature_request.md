@@ -1,20 +1,22 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ''
-labels: 'enhancement'
-assignees: ''
-
+title: ""
+labels: "enhancement"
+assignees: ""
 ---
 
 **Summary**
+
 <!--
 Describe the new feature/improvement you would like briefly below.
+
 
 What's the problem this feature will solve?
 
 What are you trying to do, that you are unable to achieve
 with this package as it currently stands?
+
 
 * Provide examples of real-world use cases that this would enable
 and how it solves the problem you described.
@@ -29,6 +31,7 @@ and how it solves the problem you described.
 As a [persona], I [want to], [so that].
 
 **Additional Information**
+
 <!--
 Describe how the feature would be used, why it is needed and what it would solve.
 
