@@ -19,11 +19,13 @@ test_that("color_palette works for all three supported palettes", {
 })
 
 test_that("color_palette works for different values of n", {
-  # n = 15
   result <- color_palette(n = 15, palette = "nest")
+
+  # Compare
   expected <- c(
     "#ff2951ff", "#2995ffff", "#81832Bff", "#AC1CF8", "#1CF853",
     "#F8761C", "#F8341C", "#F81CC5", "#2D1CF8", "#1CF8DC",
-    "#6EF81C", "#F8B81C", "#F81C25", "#F81C85", "#EC1CF8")
+    "#6EF81C", "#F8B81C", "#F81C25", "#F81C85", "#EC1CF8"
+  )
   expect_identical(result, expected)
 })
