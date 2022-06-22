@@ -11,12 +11,10 @@ assignees: ""
 <!--
 Describe the new feature/improvement you would like briefly below.
 
-
 What's the problem this feature will solve?
 
 What are you trying to do, that you are unable to achieve
 with this package as it currently stands?
-
 
 * Provide examples of real-world use cases that this would enable
 and how it solves the problem you described.
