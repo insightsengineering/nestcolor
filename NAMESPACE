@@ -2,7 +2,3 @@
 
 export(color_palette)
 export(color_palette_core)
-export(hello)
-export(plumber_api)
-export(shiny_app)
-importFrom(utils,packageName)
