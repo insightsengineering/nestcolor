@@ -1,4 +1,4 @@
-pkg_name <- "teal"
+pkg_name <- "nestcolor"
 if (requireNamespace("testthat", quietly = TRUE)) {
   library(testthat)
   reporter <- MultiReporter$new(list(
