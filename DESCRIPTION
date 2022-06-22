@@ -1,0 +1,27 @@
+Type: Package
+Package: nestcolor
+Title: Colors for NEST graphs
+Version: 0.0.0.9000
+Date: 2022-06-22
+Authors@R: c(
+    person("NEST", , , "nestcicd@roche.com", role = c("aut", "cre")),
+    person("Roche", role = c("cph", "fnd"))
+  )
+Description: Package managing visual conventions of NEST graphs.
+URL: https://github.com/insightsengineering/nestcolor
+License: Apache License 2.0 | file LICENSE
+Depends:
+    R (>= 4.0),
+    shiny
+Imports:
+    rlang
+Suggests:
+    testthat (>= 2.0),
+    pkgdown
+VignetteBuilder:
+    knitr
+biocViews:
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2

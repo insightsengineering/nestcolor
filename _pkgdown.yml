@@ -1,0 +1,10 @@
+url: https://insightsengineering.github.io/nestcolor
+
+template:
+  params:
+    bootswatch: cerulean
+
+navbar:
+  right:
+    - icon: fa-github
+      href: https://github.com/insightsengineering/nestcolor
