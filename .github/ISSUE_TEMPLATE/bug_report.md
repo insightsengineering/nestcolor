@@ -9,14 +9,12 @@ assignees: ''
 <!--
 **Thank you for wanting to report a bug!**
 
-
 ⚠
 Verify first that your issue is not already reported on
 ../search?q=is%3Aissue&type=issues.
 
 Also test if the latest main branch are affected too.
 -->
-
 
 **Summary**
 <!--
