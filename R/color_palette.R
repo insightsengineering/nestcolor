@@ -54,7 +54,6 @@ color_palette <- function(n = 10, palette = "nest") {
   match.arg(palette, c("nest", "stream", "viridis"))
   checkmate::assert_number(n)
 
-  set.seed(124)
   colors <- if (palette == "viridis") {
     rep(
       c(
