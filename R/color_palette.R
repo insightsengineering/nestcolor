@@ -56,21 +56,18 @@ color_palette <- function(n = 10, palette = "nest") {
 
   set.seed(124)
   colors <- if (palette == "viridis") {
-    rep(c(
-      scales::col_bin(
-        c(
-          "#0D0887FF", "#1C068DFF", "#270592FF", "#310597FF", "#3B049AFF", "#44039EFF", "#4C02A1FF",
-          "#5502A4FF", "#5D01A6FF", "#6600A7FF", "#6E00A8FF", "#7601A8FF", "#7E03A8FF", "#8606A6FF",
-          "#8E0BA5FF", "#9511A1FF", "#9C179EFF", "#A21D9AFF", "#A92395FF", "#B02991FF", "#B52F8CFF",
-          "#BC3488FF", "#C13B82FF", "#C6417DFF", "#CC4678FF", "#D04D73FF", "#D5536FFF", "#DA596AFF",
-          "#DE5F65FF", "#E26561FF", "#E56B5DFF", "#E97257FF", "#ED7953FF", "#F07F4FFF", "#F3864AFF",
-          "#F68D45FF", "#F89441FF", "#FA9B3CFF", "#FCA338FF", "#FDAB33FF", "#FDB32FFF", "#FEBB2BFF",
-          "#FDC328FF", "#FDCC26FF", "#FBD424FF", "#F9DD25FF", "#F6E726FF", "#F3EF27FF", "#F0F921FF"
-        ),
-        1:49
-      )(sample(1:49, 49)),
+    rep(
+      c(
+        "#0D0887", "#FB9E3B", "#FDC927", "#D8576C", "#47039F", "#BE3686", "#47039F",
+        "#7301A8", "#ED7953", "#9C179E", "#F0F921", "#BE3686", "#47039F", "#BE3686",
+        "#ED7953", "#0D0887", "#47039F", "#9C179E", "#D8576C", "#F0F921", "#D8576C",
+        "#FB9E3B", "#F0F921", "#FDC927", "#0D0887", "#7301A8", "#FB9E3B", "#9C179E",
+        "#FDC927", "#7301A8", "#F0F921", "#ED7953", "#BE3686", "#F0F921", "#D8576C",
+        "#9C179E", "#D8576C", "#9C179E", "#0D0887", "#47039F", "#FDC927", "#FDC927",
+        "#FB9E3B", "#FB9E3B", "#7301A8", "#BE3686", "#ED7953", "#ED7953", "#7301A8"
+      ),
       ceiling(n / 49)
-    ))
+    )
   } else if (palette == "stream") {
     rep(
       c(
@@ -98,7 +95,7 @@ color_palette <- function(n = 10, palette = "nest") {
         "#80F81C", "#A2F81C", "#C4F81C", "#E6F81C", "#F8F11C", "#F8E11C", "#F8D11C", "#F8C11C",
         "#F8B01C", "#F8A01C", "#F88F1C", "#F87F1C", "#F86E1C", "#F85E1C", "#F84D1C", "#F83D1C",
         "#F82C1C"
-      )[seq_len(96)],
+      ),
       ceiling(n / 96)
     )
   }
