@@ -2,12 +2,9 @@
 % Please edit documentation in R/color_palette.R
 \name{color_palette}
 \alias{color_palette}
-\alias{color_palette_core}
 \title{Color Palettes Used in NEST}
 \usage{
 color_palette(n = 10, palette = "nest")
-
-color_palette_core(n = 10, palette = "nest")
 }
 \arguments{
 \item{n}{(\code{numeric} value) \cr
@@ -38,14 +35,6 @@ colors in the NEST logo.
 A standardized color palette to be used for all plots within
 the NEST project.
 }
-\section{Functions}{
-\itemize{
-\item \code{color_palette}: Function that returns the NEST standardized color palette.
-
-\item \code{color_palette_core}: Function containing the hex color codes
-corresponding to the NEST standardized color palette.
-}}
-
 \examples{
 library(grid)
 

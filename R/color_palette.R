@@ -27,11 +27,6 @@
 #'        \item{\code{viridis}} {A color palette provided by the \code{viridis::plasma} function.}
 #'   }
 #'
-#' @name color_palette
-NULL
-
-#' @describeIn color_palette Function that returns the NEST standardized color palette.
-#'
 #' @examples
 #' library(grid)
 #'
@@ -55,14 +50,6 @@ NULL
 #'
 #' @export
 color_palette <- function(n = 10, palette = "nest") {
-  color_palette_core(n, palette)
-}
-
-#' @describeIn color_palette Function containing the hex color codes
-#' corresponding to the NEST standardized color palette.
-#'
-#' @export
-color_palette_core <- function(n = 10, palette = "nest") {
   checkmate::assert_string(palette)
   match.arg(palette, c("nest", "stream", "viridis"))
   checkmate::assert_number(n)
