@@ -11,12 +11,16 @@ BugReports: https://github.com/insightsengineering/nestcolor/issues
 Depends:
     R (>= 3.6)
 Imports:
-    checkmate
+    checkmate,
+    lifecycle
 Suggests:
     knitr,
     testthat (>= 2.0)
 VignetteBuilder:
     knitr
+RdMacros:
+    lifecycle
+Config/Needs/website: insightsengineering/nesttemplate
 biocViews:
 Encoding: UTF-8
 Language: en-US
