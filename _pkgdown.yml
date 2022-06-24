@@ -8,3 +8,9 @@ navbar:
   right:
     - icon: fa-github
       href: https://github.com/insightsengineering/nestcolor
+
+reference:
+  - title: Color Palette Functions
+    desc: NEST standardized color palette functions
+    contents:
+      - color_palette

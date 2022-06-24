@@ -11,14 +11,9 @@ BugReports: https://github.com/insightsengineering/nestcolor/issues
 Depends:
     R (>= 3.6)
 Imports:
-    plumber,
-    shiny,
-    stringr
+    checkmate
 Suggests:
-    future,
-    httr,
     knitr,
-    shinytest,
     testthat (>= 2.0)
 VignetteBuilder:
     knitr
@@ -27,4 +22,4 @@ Encoding: UTF-8
 Language: en-US
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.0
