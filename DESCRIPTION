@@ -12,6 +12,7 @@ Depends:
     R (>= 3.6)
 Imports:
     checkmate,
+    ggplot2,
     lifecycle
 Suggests:
     knitr,
