@@ -1,7 +1,7 @@
 Type: Package
 Package: nestcolor
 Title: Colors for NEST graphs
-Version: 0.0.0.9003
+Version: 0.0.0.9004
 Authors@R:
     person("insightsengineering", , , "insightsengineering@example.com", role = c("aut", "cre"))
 Description: Package managing visual conventions of NEST graphs.
