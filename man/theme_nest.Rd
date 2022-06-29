@@ -7,7 +7,7 @@
 theme_nest(...)
 }
 \arguments{
-\item{...}{(\code{list}) additional arguments to the \code{ggplot2} theme function}
+\item{...}{(\code{list}) additional arguments to \verb{[ggplot2::theme()]}}
 }
 \description{
 Returns a custom \code{NEST} \code{ggplot2} theme

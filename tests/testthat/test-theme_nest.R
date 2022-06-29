@@ -1,3 +1,3 @@
-testthat::test_that("theme_nest returns `ggplot2::theme_bw`", {
-  testthat::expect_identical(theme_nest(), ggplot2::theme_bw())
+testthat::test_that("theme_nest does not throw", {
+  testthat::expect_error(theme_nest(), regexp = NA)
 })

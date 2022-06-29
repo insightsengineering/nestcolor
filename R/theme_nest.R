@@ -1,6 +1,6 @@
 #' Returns a custom `NEST` `ggplot2` theme
 #'
-#' @param ... (`list`) additional arguments to the `ggplot2` theme function
+#' @param ... (`list`) additional arguments to `[ggplot2::theme()]`
 #'
 #' @export
 #' @examples
@@ -18,7 +18,8 @@ theme_nest <- function(...) {
     legend.box.background = ggplot2::element_rect(colour = "grey", fill = NA, size = 1),
     legend.direction = "horizontal",
     legend.title = ggplot2::element_text(face = "bold"),
-    text = ggplot2::element_text(size = font_size),
-    plot.caption = ggplot2::element_text(hjust = 0)
+    text = ggplot2::element_text(size = 10),
+    plot.caption = ggplot2::element_text(hjust = 0),
+    ...
   )
 }
