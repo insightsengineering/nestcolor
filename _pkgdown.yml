@@ -14,3 +14,4 @@ reference:
     desc: NEST standardized color palette functions
     contents:
       - color_palette
+      - theme_nest
