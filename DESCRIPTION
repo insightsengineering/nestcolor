@@ -2,8 +2,11 @@ Type: Package
 Package: nestcolor
 Title: Colors for NEST graphs
 Version: 0.0.0.9006
-Authors@R:
+Authors@R: c(
+    person("Joe", "Zhu", , "joe.zhu@roche.com", role = c("aut", "cre")),
+    person("Emily", "de la Rua", , "emily.de_la_rua@contractors.roche.com", role = "cre"),
     person("insightsengineering", , , "insightsengineering@example.com", role = c("aut", "cre"))
+  )
 Description: Package managing visual conventions of NEST graphs.
 License: Apache License 2.0 | file LICENSE
 URL: https://github.com/insightsengineering/nestcolor/
