@@ -4,9 +4,11 @@
 \alias{theme_nest}
 \title{Returns a custom \code{NEST} \code{ggplot2} theme}
 \usage{
-theme_nest(...)
+theme_nest(font_size = 10, ...)
 }
 \arguments{
+\item{font_size}{(\code{numeric}) font size to be passed to \verb{[ggplot2::element_text()]}}
+
 \item{...}{(\code{list}) additional arguments to \verb{[ggplot2::theme()]}}
 }
 \description{
