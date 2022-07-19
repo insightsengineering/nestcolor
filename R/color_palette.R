@@ -48,6 +48,8 @@
 #'
 #' plot_pal(color_palette(n = 10, palette = "viridis"))
 #'
+#' plot_pal(color_palette(n = 10, palette = "accessible"))
+#'
 #' @export
 color_palette <- function(n = 10, palette = "nest") {
   # Validate inputs
