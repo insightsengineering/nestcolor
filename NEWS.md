@@ -6,3 +6,4 @@
 * Added lifecycle badges to the package.
 * Added `tern`, `teal.modules.clinical` as downstream dependencies in staged.dependencies.
 * Added `zzz.R` with option to automatically load color palette in other packages.
+* Updated README file and added a Getting Started vignette.
