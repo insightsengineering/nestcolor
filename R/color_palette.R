@@ -101,7 +101,7 @@ color_palette <- function(n = 10, palette = "nest") {
   # Validate input
   match.arg(palette, names(palettes))
 
-  # Get colors for specified palette/colorscheme
+  # Get colors for specified palette/color scheme
   color_scheme <- unlist(
     palettes[palette],
     use.names = FALSE
