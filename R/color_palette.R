@@ -93,7 +93,7 @@ color_palette <- function(n = 10, palette = "nest") {
       "#E8F086", "#6FDE6E", "#FF4242", "#A691AE", "#235FA4", "#0A284B",
       "#BDD9BF", "#929084", "#FFC857", "#A997DF", "#E5323B", "#2E4052",
       "#E1DAAE", "#FF934F", "#CC2D35", "#058ED9", "#848FA2", "#2D3142"
-    ),
+    )
   )
 
   # Validate input
