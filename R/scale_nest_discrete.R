@@ -7,8 +7,8 @@ scale_nest_manual <- function(aesthetics,
                               labels = waiver(),
                               limits = NULL,
                               expand = waiver(),
-                              na.translate = TRUE, #nolint
-                              na.value = NA, #nolint
+                              na.translate = TRUE, # nolint
+                              na.value = NA, # nolint
                               drop = TRUE,
                               guide = "legend",
                               position = "left",
@@ -40,8 +40,8 @@ scale_nest_discrete <- function(aesthetics,
                                 labels = waiver(),
                                 limits = NULL,
                                 expand = waiver(),
-                                na.translate = TRUE, #nolint
-                                na.value = NA, #nolint
+                                na.translate = TRUE, # nolint
+                                na.value = NA, # nolint
                                 drop = TRUE,
                                 guide = "legend",
                                 position = "left",
