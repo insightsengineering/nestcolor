@@ -1,7 +1,6 @@
 ---
 title: "Getting Started with nestcolor"
-author: "NEST SME Team"
-date: "2022-07-18"
+date: "2022-07-20"
 output:
   rmarkdown::html_document:
     theme: "spacelab"
@@ -21,6 +20,7 @@ vignette: >
 The following NEST packages are optimized to implement `nestcolor`:
 
 - `tern`
+- `chevron`
 - `goshawk`
 - `osprey`
 - `teal.modules.clinical`
