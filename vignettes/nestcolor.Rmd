@@ -46,9 +46,9 @@ plot_pal <- function(x) {
   pushViewport(viewport(layout = grid.layout(1, ncol = length(x))))
   for (i in seq_along(x)) {
     grid.rect(
-    gp = gpar(fill = x[i], col = NA),
-    vp = viewport(layout.pos.col = i, layout.pos.row = 1)
-  )
+      gp = gpar(fill = x[i], col = NA),
+      vp = viewport(layout.pos.col = i, layout.pos.row = 1)
+    )
   }
 }
 
@@ -117,7 +117,8 @@ library(nestcolor)
 pal <- color_palette(n = 6, "viridis")
 options(
   ggplot2.discrete.colour = pal,
-  ggplot2.discrete.fill = pal)
+  ggplot2.discrete.fill = pal
+)
 
 g <- ggplot(msleep, aes(vore)) +
   geom_bar(aes(fill = conservation))
