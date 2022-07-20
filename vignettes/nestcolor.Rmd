@@ -17,17 +17,6 @@ vignette: >
 
 `nestcolor` is a package containing standardized color palettes used in various NEST package plots and graphical `teal` modules to create a more continuous and cohesive experience when viewing NEST visualizations.
 
-The following NEST packages are optimized to implement `nestcolor`:
-
-- `tern`
-- `chevron`
-- `goshawk`
-- `osprey`
-- `teal.modules.clinical`
-- `teal.modules.general`
-- `teal.goshawk`
-- `teal.osprey`
-
 ### Main Features
 
 This package provides four different color palettes consisting of hex codes corresponding to a set number of colors. The *nest* palette contains 96 colors, the *stream* palette contains 38 colors, the *viridis* palette contains 49 colors, and the *accessible* palette contains 18 colors. Note that colors are repeated after the above numerical limits for each palette are reached.
