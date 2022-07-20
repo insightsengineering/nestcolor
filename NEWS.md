@@ -8,4 +8,4 @@
 * Added `zzz.R` with option to automatically load color palette in other packages.
 * Added `chevron`, `goshawk`, `osprey`, `teal.goshawk`, `teal.modules.general`, and `teal.opsrey`
   as downstream dependencies in staged.dependencies.
-* Updated README file and added a Getting Started vignette.
+* Added a Getting Started vignette.
