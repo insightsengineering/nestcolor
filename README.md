@@ -1,6 +1,6 @@
 # nestcolor
 
-Package managing visual conventions of NEST graphs
+The `nestcolor` package contains functions for managing visual conventions of NEST graphs. `nestcolor` is used to apply a standardized color palette to NEST `ggplot2` plots and graphical `teal` modules for greater continuity and cohesiveness among NEST package visualizations.
 
 ## Installation
 
