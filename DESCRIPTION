@@ -19,7 +19,8 @@ Imports:
     lifecycle
 Suggests:
     knitr,
-    testthat (>= 2.0)
+    testthat (>= 2.0),
+    rmarkdown
 VignetteBuilder:
     knitr
 RdMacros:
