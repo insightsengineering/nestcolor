@@ -1,7 +1,7 @@
 Type: Package
 Package: nestcolor
 Title: Colors for NEST graphs
-Version: 0.0.0.9013.1
+Version: 0.0.0.9013.2
 Authors@R: c(
     person("Joe", "Zhu", , "joe.zhu@roche.com", role = c("aut", "cre")),
     person("Emily", "de la Rua", , "emily.de_la_rua@contractors.roche.com", role = "aut"),
@@ -19,8 +19,8 @@ Imports:
     lifecycle
 Suggests:
     knitr,
-    testthat (>= 2.0),
-    rmarkdown
+    rmarkdown,
+    testthat (>= 2.0)
 VignetteBuilder:
     knitr
 RdMacros:
