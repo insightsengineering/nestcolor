@@ -1,4 +1,4 @@
-# nestcolor 0.0.0.9013.1
+# nestcolor 0.0.0.9013.2
 
 * June 22, 2022 - Initial Release.
 * Added `color_palette` and `theme_nest` functions from `tern`.
