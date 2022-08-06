@@ -1,3 +1,4 @@
+#' @importFrom ggplot2 waiver discrete_scale
 #' @export
 scale_nest_manual <- function(aesthetics,
                               scale_name,
@@ -32,6 +33,7 @@ scale_nest_manual <- function(aesthetics,
   )
 }
 
+#' @importFrom ggplot2 waiver discrete_scale
 scale_nest_discrete <- function(aesthetics,
                                 scale_name,
                                 palette,
