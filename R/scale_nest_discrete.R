@@ -7,7 +7,7 @@
 #' appease R CMD check.
 #'
 #' @param palette (``)
-#' @param palette (``) 
+#' @param palette (``)
 #' @importFrom ggplot2 waiver discrete_scale ScaleDiscrete
 #' @export
 scale_nest_manual <- function(aesthetics,
