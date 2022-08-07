@@ -1,4 +1,14 @@
-#' @importFrom ggplot2 waiver discrete_scale
+#' Scales NEST manually or some such thing.
+#'
+#' @description `r lifecycle::badge("stable")`
+#'
+#' Adds scaling manually or some such thing. IDK
+#' what this does TBH, I'm just trying to
+#' appease R CMD check.
+#'
+#' @param palette (``)
+#' @param palette (``) 
+#' @importFrom ggplot2 waiver discrete_scale ScaleDiscrete
 #' @export
 scale_nest_manual <- function(aesthetics,
                               scale_name,
@@ -13,7 +23,7 @@ scale_nest_manual <- function(aesthetics,
                               drop = TRUE,
                               guide = "legend",
                               position = "left",
-                              super = ggplot2::ScaleDiscrete) {
+                              super = ScaleDiscrete) {
   browser()
   discrete_scale(
     aesthetics = aesthetics,
@@ -33,7 +43,18 @@ scale_nest_manual <- function(aesthetics,
   )
 }
 
-#' @importFrom ggplot2 waiver discrete_scale
+#' Scales NEST discretely or some such thing.
+#'
+#' @description `r lifecycle::badge("stable")`
+#'
+#' Adds scaling discretely or some such thing. IDK
+#' what this does TBH, I'm just trying to
+#' appease R CMD check.
+#'
+#' @param palette (``)
+#' @param palette (``)
+#' @importFrom ggplot2 waiver discrete_scale ScaleDiscrete
+#' @export
 scale_nest_discrete <- function(aesthetics,
                                 scale_name,
                                 palette,
@@ -47,7 +68,7 @@ scale_nest_discrete <- function(aesthetics,
                                 drop = TRUE,
                                 guide = "legend",
                                 position = "left",
-                                super = ggplot2::ScaleDiscrete) {
+                                super = ScaleDiscrete) {
   discrete_scale(
     aesthetics = aesthetics,
     scale_name = scale_name,
