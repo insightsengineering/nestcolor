@@ -14,9 +14,16 @@ remotes::install_github("insightsengineering/nestcolor@*release")
 
 Although `nestcolor` was not released in June 2022, a stable release of all `NEST` packages which were released in June 2022 is also available [here](https://github.com/insightsengineering/depository#readme).
 
-[![Stargazers repo roster for @insightsengineering/nestcolor](https://reporoster.com/stars/insightsengineering/nestcolor)](https://github.com/insightsengineering/nestcolor/stargazers)
-[![Forkers repo roster for @insightsengineering/nestcolor](https://reporoster.com/forks/insightsengineering/nestcolor)](https://github.com/insightsengineering/nestcolor/network/members)
+## Stargazers and Forkers
 
-## Stargazers over time
+### Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/insightsengineering/nestcolor.svg)](https://starchart.cc/insightsengineering/nestcolor)
+
+### Stargazers
+
+[![Stargazers repo roster for @insightsengineering/nestcolor](https://reporoster.com/stars/insightsengineering/nestcolor)](https://github.com/insightsengineering/nestcolor/stargazers)
+
+### Forkers
+
+[![Forkers repo roster for @insightsengineering/nestcolor](https://reporoster.com/forks/insightsengineering/nestcolor)](https://github.com/insightsengineering/nestcolor/network/members)
