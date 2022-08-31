@@ -3,7 +3,7 @@ pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
   nestcolor: nestcolor.html
-last_built: 2022-08-17T02:43Z
+last_built: 2022-08-31T11:33Z
 urls:
   reference: https://insightsengineering.github.io/nestcolor/main/reference
   article: https://insightsengineering.github.io/nestcolor/main/articles
