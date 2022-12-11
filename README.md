@@ -19,7 +19,6 @@
 [![Open Issues](https://img.shields.io/github/issues-raw/insightsengineering/nestcolor?color=red\&label=open%20issues)](https://github.com/insightsengineering/nestcolor/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 <!-- end badges -->
 
-
 The `nestcolor` package contains functions for managing visual conventions of NEST graphs. `nestcolor` is used to apply a standardized color palette to NEST `ggplot2` plots and graphical `teal` modules for greater continuity and cohesiveness among NEST package visualizations.
 
 ## Installation
