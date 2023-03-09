@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="color_palette" timestamp="2023-03-09T20:07:31Z" hostname="a672b0c3fde4" tests="2" skipped="0" failures="0" errors="0" time="0.084">
+    <testcase time="0.011" classname="color_palette" name="color_palette_works_for_all_four_supported_palettes"/>
+    <testcase time="0.0730000000000001" classname="color_palette" name="color_palette_works_for_different_values_of_n"/>
+  </testsuite>
+  <testsuite name="theme_nest" timestamp="2023-03-09T20:07:31Z" hostname="a672b0c3fde4" tests="4" skipped="0" failures="0" errors="0" time="0.301">
+    <testcase time="0.283" classname="theme_nest" name="theme_nest_does_not_throw"/>
+    <testcase time="0.003" classname="theme_nest" name="theme_nest_does_not_throw_error_if_font_size_is_a_number"/>
+    <testcase time="0.01" classname="theme_nest" name="theme_nest_gives_error_if_font_size_is_not_a_scalar_numeric_value"/>
+    <testcase time="0.005" classname="theme_nest" name="theme_nest_gives_error_if_font_size_is_not_a_scalar_numeric_value"/>
+  </testsuite>
+</testsuites>
