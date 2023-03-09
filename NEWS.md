@@ -1,6 +1,6 @@
 # nestcolor 0.1.0.9005
 
-* Update `theme_nest` function arguments following `ggplot2` deprecation.
+* Update function arguments within `theme_nest` function following `ggplot2` deprecation.
 
 # nestcolor 0.1.0
 
