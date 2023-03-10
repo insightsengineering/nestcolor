@@ -1,8 +1,8 @@
 Type: Package
 Package: nestcolor
 Title: Colors for NEST Graphs
-Version: 0.1.0.9005
-Date: 2023-02-13
+Version: 0.1.0.9006
+Date: 2023-03-10
 Authors@R: c(
     person("Joe", "Zhu", , "joe.zhu@roche.com", role = c("aut", "cre")),
     person("Emily", "de la Rua", , "emily.de_la_rua@contractors.roche.com", role = "aut"),
