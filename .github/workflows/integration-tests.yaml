@@ -11,7 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         test-strategy: ["min", "release", "max"]
-    uses: insightsengineering/r.pkg.template/.github/workflows/verdepcheck.yaml@main
+    uses: insightsengineering/r.pkg.template/.github/workflows/verdepcheck.yaml@fix_integration_timeout
     name: Dependency Test - ${{ matrix.test-strategy }} 🔢
     secrets:
       REPO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
