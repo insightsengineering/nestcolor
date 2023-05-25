@@ -36,6 +36,7 @@ remotes::install_github("insightsengineering/nestcolor@*release")
 ```
 
 ## Example
+
 ```r
 # Implementing the `nestcolor` color palette on a `ggplot2` object
 library(ggplot2)
