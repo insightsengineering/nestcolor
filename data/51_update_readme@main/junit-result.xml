@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="color_palette" timestamp="2023-05-25T14:31:23Z" hostname="48c01dd79839" tests="2" skipped="0" failures="0" errors="0" time="0.075">
-    <testcase time="0.047" classname="color_palette" name="color_palette_works_for_all_four_supported_palettes"/>
+  <testsuite name="color_palette" timestamp="2023-05-25T17:51:46Z" hostname="50b492891faa" tests="2" skipped="0" failures="0" errors="0" time="0.072">
+    <testcase time="0.044" classname="color_palette" name="color_palette_works_for_all_four_supported_palettes"/>
     <testcase time="0.028" classname="color_palette" name="color_palette_works_for_different_values_of_n"/>
   </testsuite>
-  <testsuite name="theme_nest" timestamp="2023-05-25T14:31:23Z" hostname="48c01dd79839" tests="4" skipped="0" failures="0" errors="0" time="0.298">
+  <testsuite name="theme_nest" timestamp="2023-05-25T17:51:46Z" hostname="50b492891faa" tests="4" skipped="0" failures="0" errors="0" time="0.298">
     <testcase time="0.28" classname="theme_nest" name="theme_nest_does_not_throw"/>
-    <testcase time="0.003" classname="theme_nest" name="theme_nest_does_not_throw_error_if_font_size_is_a_number"/>
-    <testcase time="0.00900000000000001" classname="theme_nest" name="theme_nest_gives_error_if_font_size_is_not_a_scalar_numeric_value"/>
+    <testcase time="0.002" classname="theme_nest" name="theme_nest_does_not_throw_error_if_font_size_is_a_number"/>
+    <testcase time="0.01" classname="theme_nest" name="theme_nest_gives_error_if_font_size_is_not_a_scalar_numeric_value"/>
     <testcase time="0.00600000000000001" classname="theme_nest" name="theme_nest_gives_error_if_font_size_is_not_a_scalar_numeric_value"/>
   </testsuite>
 </testsuites>
