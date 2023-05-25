@@ -47,8 +47,6 @@ g <- ggplot(msleep, aes(vore)) +
 g
 ```
 
-Although `nestcolor` was not released in June 2022, a stable release of all `NEST` packages which were released in June 2022 is also available [here](https://github.com/insightsengineering/depository#readme).
-
 ## Stargazers and Forkers
 
 ### Stargazers over time
