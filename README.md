@@ -26,7 +26,7 @@ The `nestcolor` package contains functions for managing visual conventions of NE
 For releases from August 2022 it is recommended that you [create and use a Github PAT](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) to install the latest version of this package. Once you have the PAT, run the following:
 
 ```r
-# Installation form CRAN
+# Installation from CRAN
 install.packages('nestcolor')
 
 # For the latest development version you can install from Github
