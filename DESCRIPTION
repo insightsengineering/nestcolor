@@ -19,7 +19,7 @@ Imports:
     ggplot2 (>= 3.4.0),
     lifecycle (>= 1.0.3)
 Suggests:
-    knitr (>= 1.42),
+    knitr (>= 1.34),
     testthat (>= 3.0.4)
 VignetteBuilder:
     knitr
