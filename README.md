@@ -30,7 +30,6 @@ For releases from August 2022 it is recommended that you [create and use a Githu
 install.packages('nestcolor')
 
 # For the latest development version you can install from Github
-Sys.setenv(GITHUB_PAT = "your_access_token_here")
 if (!require("remotes")) install.packages("remotes")
 remotes::install_github("insightsengineering/nestcolor@*release")
 ```
@@ -46,6 +45,8 @@ g <- ggplot(msleep, aes(vore)) +
   geom_bar(aes(fill = conservation))
 g
 ```
+
+![Alt text](./nestcolor_graph.png?raw=true)
 
 ## Stargazers and Forkers
 
