@@ -1,5 +1,6 @@
 # nestcolor 0.1.1.9001
 
+* Update `README` with CRAN installation instructions and example.
 * Specify minimal version of dependent packages.
 
 # nestcolor 0.1.1

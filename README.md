@@ -26,12 +26,26 @@ The `nestcolor` package contains functions for managing visual conventions of NE
 For releases from August 2022 it is recommended that you [create and use a Github PAT](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) to install the latest version of this package. Once you have the PAT, run the following:
 
 ```r
+# Installation from CRAN
+install.packages('nestcolor')
+
+# For the latest development version you can install from Github
 Sys.setenv(GITHUB_PAT = "your_access_token_here")
 if (!require("remotes")) install.packages("remotes")
 remotes::install_github("insightsengineering/nestcolor@*release")
 ```
 
-Although `nestcolor` was not released in June 2022, a stable release of all `NEST` packages which were released in June 2022 is also available [here](https://github.com/insightsengineering/depository#readme).
+## Example
+
+```r
+# Implementing the `nestcolor` color palette on a `ggplot2` object
+library(ggplot2)
+library(nestcolor)
+
+g <- ggplot(msleep, aes(vore)) +
+  geom_bar(aes(fill = conservation))
+g
+```
 
 ## Stargazers and Forkers
 
