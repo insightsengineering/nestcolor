@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - fix_integration_timeout
+      - min_deps
 
 jobs:
   dependency-test:
