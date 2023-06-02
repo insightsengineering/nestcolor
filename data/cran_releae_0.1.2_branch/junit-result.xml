@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="color_palette" timestamp="2023-05-29T15:15:54Z" hostname="0bf05e87dbe8" tests="2" skipped="0" failures="0" errors="0" time="0.062">
-    <testcase time="0.036" classname="color_palette" name="color_palette_works_for_all_four_supported_palettes"/>
-    <testcase time="0.026" classname="color_palette" name="color_palette_works_for_different_values_of_n"/>
+  <testsuite name="color_palette" timestamp="2023-06-02T14:55:12Z" hostname="8d3767a05ede" tests="2" skipped="0" failures="0" errors="0" time="0.114">
+    <testcase time="0.071" classname="color_palette" name="color_palette_works_for_all_four_supported_palettes"/>
+    <testcase time="0.043" classname="color_palette" name="color_palette_works_for_different_values_of_n"/>
   </testsuite>
-  <testsuite name="theme_nest" timestamp="2023-05-29T15:15:54Z" hostname="0bf05e87dbe8" tests="4" skipped="0" failures="0" errors="0" time="0.266">
-    <testcase time="0.25" classname="theme_nest" name="theme_nest_does_not_throw"/>
-    <testcase time="0.002" classname="theme_nest" name="theme_nest_does_not_throw_error_if_font_size_is_a_number"/>
-    <testcase time="0.00900000000000001" classname="theme_nest" name="theme_nest_gives_error_if_font_size_is_not_a_scalar_numeric_value"/>
-    <testcase time="0.005" classname="theme_nest" name="theme_nest_gives_error_if_font_size_is_not_a_scalar_numeric_value"/>
+  <testsuite name="theme_nest" timestamp="2023-06-02T14:55:13Z" hostname="8d3767a05ede" tests="4" skipped="0" failures="0" errors="0" time="0.431">
+    <testcase time="0.405" classname="theme_nest" name="theme_nest_does_not_throw"/>
+    <testcase time="0.004" classname="theme_nest" name="theme_nest_does_not_throw_error_if_font_size_is_a_number"/>
+    <testcase time="0.0130000000000001" classname="theme_nest" name="theme_nest_gives_error_if_font_size_is_not_a_scalar_numeric_value"/>
+    <testcase time="0.0089999999999999" classname="theme_nest" name="theme_nest_gives_error_if_font_size_is_not_a_scalar_numeric_value"/>
   </testsuite>
 </testsuites>
