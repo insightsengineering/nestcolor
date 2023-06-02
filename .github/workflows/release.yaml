@@ -13,13 +13,13 @@ jobs:
     needs: release
     uses: insightsengineering/r.pkg.template/.github/workflows/build-check-install.yaml@main
     secrets:
-      REPO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      REPO_GITHUB_TOKEN: ${{ secrets.REPO_GITHUB_TOKEN }}
   docs:
     name: Pkgdown Docs 📚
     needs: release
     uses: insightsengineering/r.pkg.template/.github/workflows/pkgdown.yaml@main
     secrets:
-      REPO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      REPO_GITHUB_TOKEN: ${{ secrets.REPO_GITHUB_TOKEN }}
     with:
       default-landing-page: latest-tag
   validation:
@@ -27,7 +27,7 @@ jobs:
     needs: release
     uses: insightsengineering/r.pkg.template/.github/workflows/validation.yaml@main
     secrets:
-      REPO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      REPO_GITHUB_TOKEN: ${{ secrets.REPO_GITHUB_TOKEN }}
   release:
     name: Create release 🎉
     uses: insightsengineering/r.pkg.template/.github/workflows/release.yaml@main
@@ -38,7 +38,7 @@ jobs:
     needs: [release, docs]
     uses: insightsengineering/r.pkg.template/.github/workflows/build-check-install.yaml@main
     secrets:
-      REPO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      REPO_GITHUB_TOKEN: ${{ secrets.REPO_GITHUB_TOKEN }}
     with:
       additional-env-vars: |
         _R_CHECK_CRAN_INCOMING_REMOTE_=false
@@ -54,4 +54,4 @@ jobs:
     needs: [release, docs]
     uses: insightsengineering/r.pkg.template/.github/workflows/test-coverage.yaml@main
     secrets:
-      REPO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      REPO_GITHUB_TOKEN: ${{ secrets.REPO_GITHUB_TOKEN }}
