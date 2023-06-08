@@ -25,12 +25,12 @@ VignetteBuilder:
     knitr
 RdMacros:
     lifecycle
-Remotes:
-    mllg/checkmate@*release,
-    tidyverse/ggplot2@*release,
-    r-lib/lifecycle@*release,
-    yihui/knitr@*release,
-    r-lib/testthat@*release
+Config/Needs/verdepcheck:
+    mllg/checkmate,
+    tidyverse/ggplot2,
+    r-lib/lifecycle,
+    yihui/knitr,
+    r-lib/testthat
 biocViews:
 Config/Needs/website: insightsengineering/nesttemplate
 Encoding: UTF-8
