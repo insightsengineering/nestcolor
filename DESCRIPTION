@@ -31,7 +31,6 @@ Config/Needs/verdepcheck:
     r-lib/lifecycle,
     yihui/knitr,
     r-lib/testthat
-biocViews:
 Config/Needs/website: insightsengineering/nesttemplate
 Encoding: UTF-8
 Language: en-US
