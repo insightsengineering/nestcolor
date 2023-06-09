@@ -1,6 +1,9 @@
 # nestcolor
 
 <!-- start badges -->
+[![](https://www.r-pkg.org/badges/version/nestcolor?color=green)](https://cran.r-project.org/package=nestcolor)
+[![](http://cranlogs.r-pkg.org/badges/last-month/nestcolor?color=green)](https://cran.r-project.org/package=nestcolor)
+
 [![Check 🛠](https://github.com/insightsengineering/nestcolor/actions/workflows/check.yaml/badge.svg)](https://insightsengineering.github.io/nestcolor/main/unit-test-report/)
 [![Docs 📚](https://github.com/insightsengineering/nestcolor/actions/workflows/docs.yaml/badge.svg)](https://insightsengineering.github.io/nestcolor/)
 [![Code Coverage 📔](https://raw.githubusercontent.com/insightsengineering/nestcolor/_xml_coverage_reports/data/main/badge.svg)](https://insightsengineering.github.io/nestcolor/main/coverage-report/)
