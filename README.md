@@ -46,7 +46,7 @@ g <- ggplot(msleep, aes(vore)) +
 g
 ```
 
-![Alt text](./nestcolor_graph.png?raw=true)
+![Alt text](man/figures/nestcolor_graph.png?raw=true)
 
 ## Stargazers and Forkers
 

@@ -16,3 +16,4 @@ coverage.*
 ^codemeta\.json$
 ^\.gitlab-ci\.yml
 ^man-roxygen$
+LICENSE

@@ -1,15 +1,20 @@
 Type: Package
 Package: nestcolor
 Title: Colors for NEST Graphs
-Version: 0.1.1.9002
+Version: 0.1.2
 Date: 2023-06-02
 Authors@R: c(
     person("Joe", "Zhu", , "joe.zhu@roche.com", role = c("aut", "cre")),
     person("Emily", "de la Rua", , "emily.de_la_rua@contractors.roche.com", role = "aut"),
     person("F. Hoffmann-La Roche AG", role = c("cph", "fnd"))
   )
-Description: Package managing visual conventions of NEST graphs.
-License: Apache License 2.0 | file LICENSE
+Description: Clinical reporting figures require to use consistent colors and
+  configurations. As a part of the Roche open-source clinical reporting project,
+  namely the NEST project, the 'nestcolor' package specifies the color code and
+  default theme with specifying 'ggplot2' theme parameters. Users can easily customize
+  color and theme settings before using the reset of NEST packages to ensure consistent
+  settings in both static and interactive output at the downstream.
+License: Apache License 2.0 
 URL: https://github.com/insightsengineering/nestcolor/
 BugReports: https://github.com/insightsengineering/nestcolor/issues
 Depends:

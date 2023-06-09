@@ -2,7 +2,7 @@
 #'
 #' @param font_size (`numeric`) font size to be passed to `[ggplot2::element_text()]`
 #' @param ... (`list`) additional arguments to `[ggplot2::theme()]`
-#'
+#' @return Return ggplot theme
 #' @export
 #' @examples
 #' plot <- ggplot2::ggplot(iris, ggplot2::aes(x = Sepal.Length, y = Sepal.Width)) +

@@ -29,6 +29,9 @@ The name of a palette supported by this function
 \item{\code{accessible}} {A color palette consisting of accessible colors for those with color blindness.}
 }}
 }
+\value{
+A list of hex color code
+}
 \description{
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}
 
