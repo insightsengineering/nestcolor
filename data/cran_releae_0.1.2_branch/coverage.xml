@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
-<coverage line-rate="0.917808219178082" branch-rate="0" lines-covered="67" lines-valid="73" branches-covered="0" branches-valid="0" complexity="0" version="3.6.2" timestamp="2023-06-08 16:11:09">
+<coverage line-rate="0.917808219178082" branch-rate="0" lines-covered="67" lines-valid="73" branches-covered="0" branches-valid="0" complexity="0" version="3.6.2" timestamp="2023-06-09 03:37:26">
   <sources>
     <source>/__w/nestcolor/nestcolor/nestcolor</source>
   </sources>
@@ -11,9 +11,8 @@
           <methods>
             <method name="color_palette" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
-                <line number="56" hits="5" branch="false"/>
                 <line number="57" hits="5" branch="false"/>
-                <line number="60" hits="5" branch="false"/>
+                <line number="58" hits="5" branch="false"/>
                 <line number="61" hits="5" branch="false"/>
                 <line number="62" hits="5" branch="false"/>
                 <line number="63" hits="5" branch="false"/>
@@ -45,31 +44,31 @@
                 <line number="89" hits="5" branch="false"/>
                 <line number="90" hits="5" branch="false"/>
                 <line number="91" hits="5" branch="false"/>
-                <line number="94" hits="5" branch="false"/>
+                <line number="92" hits="5" branch="false"/>
                 <line number="95" hits="5" branch="false"/>
                 <line number="96" hits="5" branch="false"/>
                 <line number="97" hits="5" branch="false"/>
                 <line number="98" hits="5" branch="false"/>
                 <line number="99" hits="5" branch="false"/>
-                <line number="102" hits="5" branch="false"/>
-                <line number="105" hits="5" branch="false"/>
+                <line number="100" hits="5" branch="false"/>
+                <line number="103" hits="5" branch="false"/>
                 <line number="106" hits="5" branch="false"/>
                 <line number="107" hits="5" branch="false"/>
                 <line number="108" hits="5" branch="false"/>
-                <line number="111" hits="5" branch="false"/>
+                <line number="109" hits="5" branch="false"/>
                 <line number="112" hits="5" branch="false"/>
                 <line number="113" hits="5" branch="false"/>
                 <line number="114" hits="5" branch="false"/>
                 <line number="115" hits="5" branch="false"/>
                 <line number="116" hits="5" branch="false"/>
                 <line number="117" hits="5" branch="false"/>
+                <line number="118" hits="5" branch="false"/>
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="56" hits="5" branch="false"/>
             <line number="57" hits="5" branch="false"/>
-            <line number="60" hits="5" branch="false"/>
+            <line number="58" hits="5" branch="false"/>
             <line number="61" hits="5" branch="false"/>
             <line number="62" hits="5" branch="false"/>
             <line number="63" hits="5" branch="false"/>
@@ -101,24 +100,25 @@
             <line number="89" hits="5" branch="false"/>
             <line number="90" hits="5" branch="false"/>
             <line number="91" hits="5" branch="false"/>
-            <line number="94" hits="5" branch="false"/>
+            <line number="92" hits="5" branch="false"/>
             <line number="95" hits="5" branch="false"/>
             <line number="96" hits="5" branch="false"/>
             <line number="97" hits="5" branch="false"/>
             <line number="98" hits="5" branch="false"/>
             <line number="99" hits="5" branch="false"/>
-            <line number="102" hits="5" branch="false"/>
-            <line number="105" hits="5" branch="false"/>
+            <line number="100" hits="5" branch="false"/>
+            <line number="103" hits="5" branch="false"/>
             <line number="106" hits="5" branch="false"/>
             <line number="107" hits="5" branch="false"/>
             <line number="108" hits="5" branch="false"/>
-            <line number="111" hits="5" branch="false"/>
+            <line number="109" hits="5" branch="false"/>
             <line number="112" hits="5" branch="false"/>
             <line number="113" hits="5" branch="false"/>
             <line number="114" hits="5" branch="false"/>
             <line number="115" hits="5" branch="false"/>
             <line number="116" hits="5" branch="false"/>
             <line number="117" hits="5" branch="false"/>
+            <line number="118" hits="5" branch="false"/>
           </lines>
         </class>
         <class name="theme_nest.R" filename="R/theme_nest.R" line-rate="1" branch-rate="0" complexity="0">
