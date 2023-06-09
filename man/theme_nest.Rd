@@ -11,6 +11,9 @@ theme_nest(font_size = 10, ...)
 
 \item{...}{(\code{list}) additional arguments to \verb{[ggplot2::theme()]}}
 }
+\value{
+Return ggplot theme
+}
 \description{
 Returns a custom \code{NEST} \code{ggplot2} theme
 }

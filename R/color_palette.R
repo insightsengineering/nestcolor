@@ -26,6 +26,7 @@
 #'      \item{\code{viridis}} {A color palette provided by the \code{viridis::plasma} function.}
 #'      \item{\code{accessible}} {A color palette consisting of accessible colors for those with color blindness.}
 #'   }
+#' @return A list of hex color code
 #'
 #' @examples
 #' library(grid)
