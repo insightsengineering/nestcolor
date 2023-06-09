@@ -106,8 +106,8 @@ table.table-condensed {
       </ul>
       <div class="tab-content" data-tabsetid="covr">
         <div class="tab-pane active" title="Files" data-value="Files" id="tab-covr-1">
-          <div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-c04c78d1a3a268197218" style="width:100%;height:500px;"></div>
-          <script type="application/json" data-for="htmlwidget-c04c78d1a3a268197218">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["<a href=\"#\">R/zzz.R<\/a>","<a href=\"#\">R/color_palette.R<\/a>","<a href=\"#\">R/theme_nest.R<\/a>"],[8,119,27],[5,44,13],[0,44,13],[5,0,0],["0","5","2"],["0.00%","100.00%","100.00%"]],"container":"<table class=\"row-border\">\n  <thead>\n    <tr>\n      <th>File<\/th>\n      <th>Lines<\/th>\n      <th>Relevant<\/th>\n      <th>Covered<\/th>\n      <th>Missed<\/th>\n      <th>Hits / Line<\/th>\n      <th>Coverage<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"dom":"t","paging":false,"columnDefs":[{"targets":6,"createdCell":"function(td, cellData, rowData, row, col) {\n  var percent = cellData.replace(\"%\", \"\");\n  if (percent > 90) {\n    var grad = \"linear-gradient(90deg, #edfde7 \" + cellData + \", white \" + cellData + \")\";\n  } else if (percent > 75) {\n    var grad = \"linear-gradient(90deg, #f9ffe5 \" + cellData + \", white \" + cellData + \")\";\n  } else {\n    var grad = \"linear-gradient(90deg, #fcece9 \" + cellData + \", white \" + cellData + \")\";\n  }\n  $(td).css(\"background\", grad);\n}\n"},{"className":"dt-right","targets":[1,2,3,4]}],"order":[],"autoWidth":false,"orderClasses":false},"callback":"function(table) {\ntable.on('click.dt', 'a', function() {\n  files = $('div#files div');\n  files.not('div.hidden').addClass('hidden');\n  id = $(this).text();\n  files.filter('div[id=\\'' + id + '\\']').removeClass('hidden');\n  $('ul.nav a[data-value=Source]').text(id).tab('show');\n});\n}"},"evals":["options.columnDefs.0.createdCell","callback"],"jsHooks":[]}</script>
+          <div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-8d1e3ec2f6a5535485e5" style="width:100%;height:500px;"></div>
+          <script type="application/json" data-for="htmlwidget-8d1e3ec2f6a5535485e5">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["<a href=\"#\">R/zzz.R<\/a>","<a href=\"#\">R/color_palette.R<\/a>","<a href=\"#\">R/theme_nest.R<\/a>"],[8,118,27],[5,44,13],[0,44,13],[5,0,0],["0","5","2"],["0.00%","100.00%","100.00%"]],"container":"<table class=\"row-border\">\n  <thead>\n    <tr>\n      <th>File<\/th>\n      <th>Lines<\/th>\n      <th>Relevant<\/th>\n      <th>Covered<\/th>\n      <th>Missed<\/th>\n      <th>Hits / Line<\/th>\n      <th>Coverage<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"dom":"t","paging":false,"columnDefs":[{"targets":6,"createdCell":"function(td, cellData, rowData, row, col) {\n  var percent = cellData.replace(\"%\", \"\");\n  if (percent > 90) {\n    var grad = \"linear-gradient(90deg, #edfde7 \" + cellData + \", white \" + cellData + \")\";\n  } else if (percent > 75) {\n    var grad = \"linear-gradient(90deg, #f9ffe5 \" + cellData + \", white \" + cellData + \")\";\n  } else {\n    var grad = \"linear-gradient(90deg, #fcece9 \" + cellData + \", white \" + cellData + \")\";\n  }\n  $(td).css(\"background\", grad);\n}\n"},{"className":"dt-right","targets":[1,2,3,4]}],"order":[],"autoWidth":false,"orderClasses":false},"callback":"function(table) {\ntable.on('click.dt', 'a', function() {\n  files = $('div#files div');\n  files.not('div.hidden').addClass('hidden');\n  id = $(this).text();\n  files.filter('div[id=\\'' + id + '\\']').removeClass('hidden');\n  $('ul.nav a[data-value=Source]').text(id).tab('show');\n});\n}"},"evals":["options.columnDefs.0.createdCell","callback"],"jsHooks":[]}</script>
         </div>
         <div class="tab-pane" title="Source" data-value="Source" id="tab-covr-2">
           <div id="files">
@@ -314,634 +314,627 @@ table.table-condensed {
                     <td class="num">29</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' @return A list of hex color code</pre>
+                      <pre class="language-r">#'</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">30</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#'</pre>
+                      <pre class="language-r">#' @examples</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">31</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' @examples</pre>
+                      <pre class="language-r">#' library(grid)</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">32</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' library(grid)</pre>
+                      <pre class="language-r">#'</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">33</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#'</pre>
+                      <pre class="language-r">#' plot_pal &lt;- function(x) {</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">34</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' plot_pal &lt;- function(x) {</pre>
+                      <pre class="language-r">#'   grid.newpage()</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">35</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#'   grid.newpage()</pre>
+                      <pre class="language-r">#'   pushViewport(plotViewport(rep(1, 4)))</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">36</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#'   pushViewport(plotViewport(rep(1, 4)))</pre>
+                      <pre class="language-r">#'   pushViewport(viewport(layout = grid.layout(1, ncol = length(x))))</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">37</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#'   pushViewport(viewport(layout = grid.layout(1, ncol = length(x))))</pre>
+                      <pre class="language-r">#'   for (i in seq_along(x)) {</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">38</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#'   for (i in seq_along(x)) {</pre>
+                      <pre class="language-r">#'     grid.rect(</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">39</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#'     grid.rect(</pre>
+                      <pre class="language-r">#'       gp = gpar(fill = x[i], col = NA),</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">40</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#'       gp = gpar(fill = x[i], col = NA),</pre>
+                      <pre class="language-r">#'       vp = viewport(layout.pos.col = i, layout.pos.row = 1)</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">41</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#'       vp = viewport(layout.pos.col = i, layout.pos.row = 1)</pre>
+                      <pre class="language-r">#'     )</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">42</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#'     )</pre>
+                      <pre class="language-r">#'   }</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">43</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#'   }</pre>
+                      <pre class="language-r">#' }</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">44</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' }</pre>
+                      <pre class="language-r">#'</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">45</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#'</pre>
+                      <pre class="language-r">#' plot_pal(color_palette(n = 10, palette = "nest"))</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">46</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' plot_pal(color_palette(n = 10, palette = "nest"))</pre>
+                      <pre class="language-r">#'</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">47</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#'</pre>
+                      <pre class="language-r">#' plot_pal(color_palette(n = 10, palette = "stream"))</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">48</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' plot_pal(color_palette(n = 10, palette = "stream"))</pre>
+                      <pre class="language-r">#'</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">49</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#'</pre>
+                      <pre class="language-r">#' plot_pal(color_palette(n = 10, palette = "viridis"))</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">50</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' plot_pal(color_palette(n = 10, palette = "viridis"))</pre>
+                      <pre class="language-r">#'</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">51</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#'</pre>
+                      <pre class="language-r">#' plot_pal(color_palette(n = 10, palette = "accessible"))</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">52</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' plot_pal(color_palette(n = 10, palette = "accessible"))</pre>
+                      <pre class="language-r">#'</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">53</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#'</pre>
+                      <pre class="language-r">#' @export</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">54</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' @export</pre>
+                      <pre class="language-r">color_palette &lt;- function(n = 10, palette = "nest") {</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">55</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">color_palette &lt;- function(n = 10, palette = "nest") {</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">56</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
                       <pre class="language-r">  # Validate inputs</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">57</td>
+                    <td class="num">56</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  checkmate::assert_string(palette)</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">58</td>
+                    <td class="num">57</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  checkmate::assert_number(n)</pre>
                     </td>
                   </tr>
                   <tr class="never">
-                    <td class="num">59</td>
+                    <td class="num">58</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
                       <pre class="language-r"></pre>
                     </td>
                   </tr>
                   <tr class="never">
-                    <td class="num">60</td>
+                    <td class="num">59</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  # Define colors</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">61</td>
+                    <td class="num">60</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  palettes &lt;- list(</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">62</td>
+                    <td class="num">61</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    "nest" = c(</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">63</td>
+                    <td class="num">62</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#ff2951ff", "#2995ffff", "#81832Bff", "#AC1CF8", "#1CF853", "#F8761C", "#F8341C",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">64</td>
+                    <td class="num">63</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#F81CC5", "#2D1CF8", "#1CF8DC", "#6EF81C", "#F8B81C", "#F81C25", "#F81C85", "#EC1CF8",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">65</td>
+                    <td class="num">64</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#6D1CF8", "#1C4BF8", "#1CD0F8", "#1CF898", "#2AF81C", "#B3F81C", "#F8D91C", "#F8971C",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">66</td>
+                    <td class="num">65</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#F8551C", "#F8241C", "#F81C35", "#F81C65", "#F81CA5", "#F81CE5", "#CC1CF8", "#8D1CF8",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">67</td>
+                    <td class="num">66</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#4D1CF8", "#1C2BF8", "#1C6BF8", "#1CAEF8", "#1CF2F8", "#1CF8BA", "#1CF876", "#1CF831",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">68</td>
+                    <td class="num">67</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#4CF81C", "#91F81C", "#D5F81C", "#F8E91C", "#F8C91C", "#F8A81C", "#F8871C", "#F8661C",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">69</td>
+                    <td class="num">68</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#F8451C", "#F81C1D", "#F81C2D", "#F81C3D", "#F81C55", "#F81C75", "#F81C95", "#F81CB5",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">70</td>
+                    <td class="num">69</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#F81CD5", "#F81CF5", "#DC1CF8", "#BC1CF8", "#9D1CF8", "#7D1CF8", "#5D1CF8", "#3D1CF8",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">71</td>
+                    <td class="num">70</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#1D1CF8", "#1C3BF8", "#1C5BF8", "#1C7BF8", "#1C9DF8", "#1CBFF8", "#1CE1F8", "#1CF8ED",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">72</td>
+                    <td class="num">71</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#1CF8CB", "#1CF8A9", "#1CF887", "#1CF865", "#1CF842", "#1CF820", "#3BF81C", "#5DF81C",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">73</td>
+                    <td class="num">72</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#80F81C", "#A2F81C", "#C4F81C", "#E6F81C", "#F8F11C", "#F8E11C", "#F8D11C", "#F8C11C",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">74</td>
+                    <td class="num">73</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#F8B01C", "#F8A01C", "#F88F1C", "#F87F1C", "#F86E1C", "#F85E1C", "#F84D1C", "#F83D1C",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">75</td>
+                    <td class="num">74</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#F82C1C"</pre>
                     </td>
                   </tr>
                   <tr class="never">
-                    <td class="num">76</td>
+                    <td class="num">75</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    ),</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">77</td>
+                    <td class="num">76</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    "stream" = c(</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">78</td>
+                    <td class="num">77</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#343cff", "#ff484b", "#232323", "#329032", "#ffa41c", "#750375", "#1d831c", "#767676",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">79</td>
+                    <td class="num">78</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#9b2525", "#008080", "#ff1f8e", "#bdb771", "#ffd92d", "#000bff", "#ff0004", "#090909",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">80</td>
+                    <td class="num">79</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#379336", "#ffa722", "#750375", "#2f9999", "#ff2c95", "#bfb976", "#ffdd41", "#3438ff",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">81</td>
+                    <td class="num">80</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#ff0004", "#000000", "#047503", "#ff9a05", "#7a0d7a", "#a94343", "#008080", "#ffa825",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">82</td>
+                    <td class="num">81</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#ff1388", "#bdb771", "#ffe258", "#141dff", "#ff0004", "#000000"</pre>
                     </td>
                   </tr>
                   <tr class="never">
-                    <td class="num">83</td>
+                    <td class="num">82</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    ),</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">84</td>
+                    <td class="num">83</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    "viridis" = c(</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">85</td>
+                    <td class="num">84</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#0D0887", "#FB9E3B", "#FDC927", "#D8576C", "#47039F", "#BE3686", "#47039F",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">86</td>
+                    <td class="num">85</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#7301A8", "#ED7953", "#9C179E", "#F0F921", "#BE3686", "#47039F", "#BE3686",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">87</td>
+                    <td class="num">86</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#ED7953", "#0D0887", "#47039F", "#9C179E", "#D8576C", "#F0F921", "#D8576C",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">88</td>
+                    <td class="num">87</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#FB9E3B", "#F0F921", "#FDC927", "#0D0887", "#7301A8", "#FB9E3B", "#9C179E",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">89</td>
+                    <td class="num">88</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#FDC927", "#7301A8", "#F0F921", "#ED7953", "#BE3686", "#F0F921", "#D8576C",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">90</td>
+                    <td class="num">89</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#9C179E", "#D8576C", "#9C179E", "#0D0887", "#47039F", "#FDC927", "#FDC927",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">91</td>
+                    <td class="num">90</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#FB9E3B", "#FB9E3B", "#7301A8", "#BE3686", "#ED7953", "#ED7953", "#7301A8"</pre>
                     </td>
                   </tr>
                   <tr class="never">
-                    <td class="num">92</td>
+                    <td class="num">91</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    ),</pre>
                     </td>
                   </tr>
                   <tr class="never">
-                    <td class="num">93</td>
+                    <td class="num">92</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
                       <pre class="language-r"></pre>
                     </td>
                   </tr>
                   <tr class="never">
-                    <td class="num">94</td>
+                    <td class="num">93</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    # Inclusive/accessible color palettes</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">95</td>
+                    <td class="num">94</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    "accessible" = c(</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">96</td>
+                    <td class="num">95</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#E8F086", "#6FDE6E", "#FF4242", "#A691AE", "#235FA4", "#0A284B",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">97</td>
+                    <td class="num">96</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#BDD9BF", "#929084", "#FFC857", "#A997DF", "#E5323B", "#2E4052",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">98</td>
+                    <td class="num">97</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      "#E1DAAE", "#FF934F", "#CC2D35", "#058ED9", "#848FA2", "#2D3142"</pre>
                     </td>
                   </tr>
                   <tr class="never">
-                    <td class="num">99</td>
+                    <td class="num">98</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    )</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">99</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  )</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">100</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">  )</pre>
+                      <pre class="language-r"></pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">101</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r"></pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">102</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
                       <pre class="language-r">  # Validate input</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">103</td>
+                    <td class="num">102</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  match.arg(palette, names(palettes))</pre>
                     </td>
                   </tr>
                   <tr class="never">
-                    <td class="num">104</td>
+                    <td class="num">103</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
                       <pre class="language-r"></pre>
                     </td>
                   </tr>
                   <tr class="never">
-                    <td class="num">105</td>
+                    <td class="num">104</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  # Get colors for specified palette/color scheme</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">106</td>
+                    <td class="num">105</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  color_scheme &lt;- unlist(</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">107</td>
+                    <td class="num">106</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    palettes[palette],</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">108</td>
+                    <td class="num">107</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    use.names = FALSE</pre>
                     </td>
                   </tr>
                   <tr class="never">
-                    <td class="num">109</td>
+                    <td class="num">108</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  )</pre>
                     </td>
                   </tr>
                   <tr class="never">
-                    <td class="num">110</td>
+                    <td class="num">109</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
                       <pre class="language-r"></pre>
                     </td>
                   </tr>
                   <tr class="never">
-                    <td class="num">111</td>
+                    <td class="num">110</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  # Return vector of colors</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">112</td>
+                    <td class="num">111</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  colors &lt;- rep(</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">113</td>
+                    <td class="num">112</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    color_scheme,</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">114</td>
+                    <td class="num">113</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    ceiling(</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">115</td>
+                    <td class="num">114</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      n / length(color_scheme)</pre>
                     </td>
                   </tr>
                   <tr class="never">
-                    <td class="num">116</td>
+                    <td class="num">115</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    )</pre>
                     </td>
                   </tr>
                   <tr class="never">
-                    <td class="num">117</td>
+                    <td class="num">116</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  )</pre>
                     </td>
                   </tr>
                   <tr class="covered">
-                    <td class="num">118</td>
+                    <td class="num">117</td>
                     <td class="coverage">5<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  return(colors[seq_len(n)])</pre>
                     </td>
                   </tr>
                   <tr class="never">
-                    <td class="num">119</td>
+                    <td class="num">118</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
                       <pre class="language-r">}</pre>
@@ -1047,7 +1040,7 @@ table.table-condensed {
                     <td class="num">5</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' @return Return ggplot theme</pre>
+                      <pre class="language-r">#'</pre>
                     </td>
                   </tr>
                   <tr class="never">
