@@ -1,6 +1,5 @@
 # nestcolor 0.1.2
 
-
 * Update `README` with CRAN installation instructions and example.
 
 # nestcolor 0.1.1
