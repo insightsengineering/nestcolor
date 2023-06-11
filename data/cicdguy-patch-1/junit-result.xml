@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="color_palette" timestamp="2023-06-11T11:21:24Z" hostname="2bbe97aec8d9" tests="2" skipped="0" failures="0" errors="0" time="0.106">
-    <testcase time="0.0680000000000001" classname="color_palette" name="color_palette_works_for_all_four_supported_palettes"/>
-    <testcase time="0.0379999999999999" classname="color_palette" name="color_palette_works_for_different_values_of_n"/>
+  <testsuite name="color_palette" timestamp="2023-06-11T12:50:15Z" hostname="eca54d1adbc3" tests="2" skipped="0" failures="0" errors="0" time="0.07">
+    <testcase time="0.043" classname="color_palette" name="color_palette_works_for_all_four_supported_palettes"/>
+    <testcase time="0.027" classname="color_palette" name="color_palette_works_for_different_values_of_n"/>
   </testsuite>
-  <testsuite name="theme_nest" timestamp="2023-06-11T11:21:25Z" hostname="2bbe97aec8d9" tests="4" skipped="0" failures="0" errors="0" time="0.415">
-    <testcase time="0.39" classname="theme_nest" name="theme_nest_does_not_throw"/>
-    <testcase time="0.004" classname="theme_nest" name="theme_nest_does_not_throw_error_if_font_size_is_a_number"/>
-    <testcase time="0.0130000000000001" classname="theme_nest" name="theme_nest_gives_error_if_font_size_is_not_a_scalar_numeric_value"/>
-    <testcase time="0.00800000000000001" classname="theme_nest" name="theme_nest_gives_error_if_font_size_is_not_a_scalar_numeric_value"/>
+  <testsuite name="theme_nest" timestamp="2023-06-11T12:50:15Z" hostname="eca54d1adbc3" tests="4" skipped="0" failures="0" errors="0" time="0.295">
+    <testcase time="0.277" classname="theme_nest" name="theme_nest_does_not_throw"/>
+    <testcase time="0.003" classname="theme_nest" name="theme_nest_does_not_throw_error_if_font_size_is_a_number"/>
+    <testcase time="0.00900000000000001" classname="theme_nest" name="theme_nest_gives_error_if_font_size_is_not_a_scalar_numeric_value"/>
+    <testcase time="0.00600000000000001" classname="theme_nest" name="theme_nest_gives_error_if_font_size_is_not_a_scalar_numeric_value"/>
   </testsuite>
 </testsuites>
