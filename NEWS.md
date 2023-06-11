@@ -1,6 +1,6 @@
 # nestcolor 0.1.2.9000
 
-* TBD
+* In development
 
 # nestcolor 0.1.2
 
