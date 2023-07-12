@@ -1,6 +1,6 @@
 # nestcolor 0.1.2.9004
 
-* In development
+* Specify minimal version of dependent packages.
 
 # nestcolor 0.1.2
 

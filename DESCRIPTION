@@ -21,18 +21,23 @@ BugReports: https://github.com/insightsengineering/nestcolor/issues
 Depends:
     R (>= 3.6)
 Imports:
-    checkmate,
+    checkmate (> 2.1.0),
     ggplot2 (>= 3.4.0),
-    lifecycle
+    lifecycle (>= 0.1.0)
 Suggests:
-    knitr,
-    rmarkdown,
-    testthat (>= 2.0)
+    knitr (>= 1.34),
+    rmarkdown (>= 1.11),
+    testthat (>= 3.0.4)
 VignetteBuilder:
     knitr
 RdMacros:
     lifecycle
-biocViews:
+Config/Needs/verdepcheck:
+    mllg/checkmate,
+    tidyverse/ggplot2,
+    r-lib/lifecycle,
+    yihui/knitr,
+    r-lib/testthat
 Config/Needs/website: insightsengineering/nesttemplate
 Encoding: UTF-8
 Language: en-US
