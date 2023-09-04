@@ -26,6 +26,7 @@ Imports:
     lifecycle (>= 0.1.0)
 Suggests:
     knitr (>= 1.42),
+    rmarkdown (>= 2.19),
     testthat (>= 3.0.4)
 VignetteBuilder:
     knitr
@@ -36,6 +37,7 @@ Config/Needs/verdepcheck:
     tidyverse/ggplot2,
     r-lib/lifecycle,
     yihui/knitr,
+    rstudio/rmarkdown,
     r-lib/testthat
 Config/Needs/website: insightsengineering/nesttemplate
 Encoding: UTF-8
