@@ -1,6 +1,6 @@
 # nestcolor 0.1.2.9004
 
-* In development
+* Specified minimal version of package dependencies.
 
 # nestcolor 0.1.2
 
