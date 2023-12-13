@@ -1,4 +1,4 @@
-# nestcolor 0.1.2.9006
+# nestcolor 0.1.2.9007
 
 * Specified minimal version of package dependencies.
 
