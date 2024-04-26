@@ -20,3 +20,4 @@ LICENSE
 ^pkgdown$
 ^revdeprefs\.yaml$
 ^revdep$
+^\.covrignore$
