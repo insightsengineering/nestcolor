@@ -28,4 +28,5 @@ vignettes/*.md
 vignettes/*.R
 coverage.*
 .vscode/
-*.tar.gz
+*.tar.gztests/testthat/_snaps/**/*.new.md
+tests/testthat/_snaps/**/*.new.svg
