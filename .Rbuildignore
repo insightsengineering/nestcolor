@@ -18,3 +18,5 @@ coverage.*
 ^man-roxygen$
 LICENSE
 ^pkgdown$
+^revdeprefs\.yaml$
+^revdep$
