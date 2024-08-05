@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="color_palette" timestamp="2024-04-29T14:27:10Z" hostname="4395e2a93218" tests="2" skipped="0" failures="0" errors="0" time="0.096">
-    <testcase time="0.00800000000000001" classname="color_palette" name="color_palette_works_for_all_four_supported_palettes"/>
-    <testcase time="0.088" classname="color_palette" name="color_palette_works_for_different_values_of_n"/>
+  <testsuite name="color_palette" timestamp="2024-08-05T08:30:03Z" hostname="7d3b76866455" tests="2" skipped="0" failures="0" errors="0" time="0.109">
+    <testcase time="0.00600000000000001" classname="color_palette" name="color_palette_works_for_all_four_supported_palettes"/>
+    <testcase time="0.103" classname="color_palette" name="color_palette_works_for_different_values_of_n"/>
   </testsuite>
-  <testsuite name="theme_nest" timestamp="2024-04-29T14:27:10Z" hostname="4395e2a93218" tests="4" skipped="0" failures="0" errors="0" time="0.227">
-    <testcase time="0.208" classname="theme_nest" name="theme_nest_does_not_throw"/>
-    <testcase time="0.003" classname="theme_nest" name="theme_nest_does_not_throw_error_if_font_size_is_a_number"/>
-    <testcase time="0.00900000000000001" classname="theme_nest" name="theme_nest_gives_error_if_font_size_is_not_a_scalar_numeric_value"/>
-    <testcase time="0.00700000000000001" classname="theme_nest" name="theme_nest_gives_error_if_font_size_is_not_a_scalar_numeric_value"/>
+  <testsuite name="theme_nest" timestamp="2024-08-05T08:30:03Z" hostname="7d3b76866455" tests="4" skipped="0" failures="0" errors="0" time="0.233">
+    <testcase time="0.215" classname="theme_nest" name="theme_nest_does_not_throw"/>
+    <testcase time="0.004" classname="theme_nest" name="theme_nest_does_not_throw_error_if_font_size_is_a_number"/>
+    <testcase time="0.01" classname="theme_nest" name="theme_nest_gives_error_if_font_size_is_not_a_scalar_numeric_value"/>
+    <testcase time="0.004" classname="theme_nest" name="theme_nest_gives_error_if_font_size_is_not_a_scalar_numeric_value"/>
   </testsuite>
 </testsuites>
