@@ -1,8 +1,8 @@
 Type: Package
 Package: nestcolor
 Title: Colors for NEST Graphs
-Version: 0.1.2.9011
-Date: 2024-08-05
+Version: 0.1.2.9012
+Date: 2024-08-19
 Authors@R: c(
     person("Joe", "Zhu", , "joe.zhu@roche.com", role = c("aut", "cre")),
     person("Emily", "de la Rua", , "emily.de_la_rua@contractors.roche.com", role = "aut"),
@@ -30,8 +30,8 @@ Suggests:
     rmarkdown (>= 2.19),
     testthat (>= 3.0.4)
 VignetteBuilder:
-    knitr, 
-    rmarkdown 
+    knitr,
+    rmarkdown
 RdMacros:
     lifecycle
 Config/Needs/verdepcheck: mllg/checkmate, tidyverse/ggplot2,
