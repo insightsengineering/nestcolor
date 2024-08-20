@@ -23,7 +23,7 @@ Depends:
     R (>= 3.6)
 Imports:
     checkmate (>= 2.1.0),
-    ggplot2 (>= 3.5.1),
+    ggplot2 (>= 3.5.0),
     lifecycle (>= 1.0.3)
 Suggests:
     knitr (>= 1.42),
