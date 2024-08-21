@@ -13,20 +13,20 @@ the color palettes. Please note the colors will be repeated after
 a certain numerical limit per palette:
 
 \itemize{
-\item{\code{nest}} {96 colors}
-\item{\code{stream}} {38 colors}
-\item{\code{viridis}} {49 colors}
-\item{\code{accessible}} {18 colors}
+\item \code{nest} 96 colors
+\item \code{stream} 38 colors
+\item \code{viridis} 49 colors
+\item \code{accessible} 18 colors
 }}
 
 \item{palette}{(\code{character} value)\cr
 The name of a palette supported by this function
 
 \itemize{
-\item{\code{nest}} {A color palette developed by the NEST team representing colors in the NEST logo.}
-\item{\code{stream}} {A color palette proposed by the stream documentation of stream version \code{2_05}}
-\item{\code{viridis}} {A color palette provided by the \code{viridis::plasma} function.}
-\item{\code{accessible}} {A color palette consisting of accessible colors for those with color blindness.}
+\item \code{nest} A color palette developed by the NEST team representing colors in the NEST logo.
+\item \code{stream} A color palette proposed by the stream documentation of stream version \code{2_05}
+\item \code{viridis} A color palette provided by the \code{viridis::plasma} function.
+\item \code{accessible} A color palette consisting of accessible colors for those with color blindness.
 }}
 }
 \value{
