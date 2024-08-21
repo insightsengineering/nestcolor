@@ -21,10 +21,10 @@
 #'   The name of a palette supported by this function
 #'
 #'   \itemize{
-#'      \item `nest` {A color palette developed by the NEST team representing colors in the NEST logo.}
-#'      \item `stream` {A color palette proposed by the stream documentation of stream version \code{2_05}}
-#'      \item `viridis` {A color palette provided by the \code{viridis::plasma} function.}
-#'      \item `accessible` {A color palette consisting of accessible colors for those with color blindness.}
+#'      \item `nest` A color palette developed by the NEST team representing colors in the NEST logo.
+#'      \item `stream` A color palette proposed by the stream documentation of stream version \code{2_05}
+#'      \item `viridis` A color palette provided by the \code{viridis::plasma} function.
+#'      \item `accessible` A color palette consisting of accessible colors for those with color blindness.
 #'   }
 #' @return A list of hex color code
 #'
