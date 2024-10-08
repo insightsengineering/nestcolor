@@ -23,9 +23,6 @@ downstream_repos:
   insightsengineering/teal.modules.clinical:
     repo: insightsengineering/teal.modules.clinical
     host: https://github.com
-  insightsengineering/teal.osprey:
-    repo: insightsengineering/teal.osprey
-    host: https://github.com
   insightsengineering/tern:
     repo: insightsengineering/tern
     host: https://github.com
